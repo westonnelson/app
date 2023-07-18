@@ -12,19 +12,17 @@ const Home: NextPage = () => {
             Welcome to{" "}
             <span className={styles.gradientText0}>
               <a
-                href="https://thirdweb.com/"
+                href="https://app.nftearth.exchange"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                thirdweb.
+                NFTEarth
               </a>
             </span>
           </h1>
 
           <p className={styles.description}>
-            Get started by configuring your desired network in{" "}
-            <code className={styles.code}>src/index.js</code>, then modify the{" "}
-            <code className={styles.code}>src/App.js</code> file!
+            Get started by connecting your wallet
           </p>
 
           <div className={styles.connect}>
@@ -39,22 +37,21 @@ const Home: NextPage = () => {
 
         <div className={styles.grid}>
           <a
-            href="https://portal.thirdweb.com/"
+            href="https://app.nftearth.exchange/"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image
               src="/images/portal-preview.png"
-              alt="Placeholder preview of starter"
+              alt="App"
               width={300}
               height={200}
             />
             <div className={styles.cardText}>
-              <h2 className={styles.gradientText1}>Portal ➜</h2>
+              <h2 className={styles.gradientText1}>dApp ➜</h2>
               <p>
-                Guides, references, and resources that will help you build with
-                thirdweb.
+                Trade, create, and manage your NFTs on the NFT hub.
               </p>
             </div>
           </a>
@@ -72,31 +69,29 @@ const Home: NextPage = () => {
               height={200}
             />
             <div className={styles.cardText}>
-              <h2 className={styles.gradientText2}>Dashboard ➜</h2>
+              <h2 className={styles.gradientText2}>Launchpad ➜</h2>
               <p>
-                Deploy, configure, and manage your smart contracts from the
-                dashboard.
+                Deploy, configure, and manage your NFT collections in an omnichain-mobile world, all through NFTEarth!
               </p>
             </div>
           </a>
 
           <a
-            href="https://thirdweb.com/templates"
+            href="https://portal.arbitrum.io/"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image
               src="/images/templates-preview.png"
-              alt="Placeholder preview of templates"
+              alt="Placeholder preview of portal"
               width={300}
               height={200}
             />
             <div className={styles.cardText}>
-              <h2 className={styles.gradientText3}>Templates ➜</h2>
+              <h2 className={styles.gradientText3}>Arbitrum One Portal</h2>
               <p>
-                Discover and clone template projects showcasing thirdweb
-                features.
+              Discover dApps built on the largest Ethereum scaling solution today.
               </p>
             </div>
           </a>
