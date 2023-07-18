@@ -16,7 +16,7 @@ const Home: NextPage = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                NFTEarth
+                OMNICHAIN NFTEarth
               </a>
             </span>
           </h1>
@@ -71,7 +71,7 @@ const Home: NextPage = () => {
             <div className={styles.cardText}>
               <h2 className={styles.gradientText2}>Launchpad ➜</h2>
               <p>
-                Deploy, configure, and manage your NFT collections in an omnichain-mobile world, all through NFTEarth!
+                Deploy, configure, and manage your NFT collections in an Omnichain-mobile world, all through NFTEarth!
               </p>
             </div>
           </a>
@@ -91,7 +91,7 @@ const Home: NextPage = () => {
             <div className={styles.cardText}>
               <h2 className={styles.gradientText3}>Arbitrum One Portal</h2>
               <p>
-              Discover dApps built on the largest Ethereum scaling solution today.
+              Discover dApps built on the largest Layer2.
               </p>
             </div>
           </a>
